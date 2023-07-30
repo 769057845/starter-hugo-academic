@@ -16,16 +16,16 @@ sections:
     content:
       title: Skills
       items:
-        - name: R
+        - name: R language
           description: 90%
           icon: r-project
           icon_pack: fab
-        - name: Statistics
+        - name: ArcGIS
           description: 100%
           icon: chart-line
           icon_pack: fas
-        - name: Photography
-          description: 10%
+        - name: SWAT model
+          description: 50%
           icon: camera-retro
           icon_pack: fas
   - block: experience
@@ -189,16 +189,6 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
   - block: tag_cloud
     content:
       title: Popular Topics
